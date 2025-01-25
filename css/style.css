@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.gradian_button{
+    background: rgb(228,183,84);
+    background: linear-gradient(100deg, rgba(196,140,47,1) 0%  rgba(228,183,84,1) 100%,);
+}
+.gradian_color{
+    background: rgb(228,183,84);
+    background: linear-gradient(100deg, rgba(228,183,84,1) 0%, rgba(196,140,47,1) 100%);
+}
+
+
+/* this is heros section */
+
+.heros_bg{
+    background-image: url(../img/banner\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.height-heros{
+    min-height: 600px;
+}
+
+/* this is 2nd section */
+
+
+  
+/* this is 3rd section  */
+.white-line{
+    width: 30%; 
+    height: 4px;
+    background: rgb(255, 255, 255);
+    border-radius: 2px;
+}
+
+/* this is 4th section */
+.gradient-line {
+    width: 10%; 
+    height: 4px;
+    background: rgb(228,183,84);
+    background: linear-gradient(100deg, rgba(196,140,47,1) 0%  rgba(228,183,84,1) 100%,);
+    border-radius: 2px;
+}
+
+/* this is 5th section */
+.bg-5th{
+    background-image: url(../img/darkbg\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* slider */
+
+.card {
+    background: linear-gradient(to bottom, #d4af37, #b8860b);
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .stars {
+    font-size: 1.5rem;
+    color: #ffcc00;
+  }
+
+  .custom-icon-prev, .custom-icon-next {
+    color: #ffd700;
+    font-size: 2rem;
+  }
+  
+  .custom-icon-prev:hover, .custom-icon-next:hover {
+    color: #ff8c00;
+  }
+
+
+
+  /* this is 6th section accordion */
+
+
+  .accordion-button::after {
+    color: #ffd700;
+  }
+  .accordion-item {
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+  }
+  .accordion-button:not(.collapsed) {
+    color: #141619;
+    background-color: #ffffff;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+
+/* this is 7th section */
+
+.bg_7th{
+    background: rgb(12,12,12);
+    background: linear-gradient(0deg, rgba(12,12,12,1) 60%, rgba(245,245,245,1) 40%);
+}
+
+.bg-7th_child{
+    background-image: url(../img/ctabox\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    color: #EDCE5A;
+    text-decoration: none;
+}
+
+/* icon  */
+.bi-envelope-fill , .bi-facebook , .bi-twitter-x , .bi-instagram , .bi-youtube{
+    color: #EDCE5A;
+    font-size: 30px;
+}
