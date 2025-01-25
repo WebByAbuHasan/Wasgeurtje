@@ -3,9 +3,17 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body{
+  font-family: "Lato", serif;
+  font-style: normal;
+}
 .gradian_button{
     background: rgb(228,183,84);
-    background: linear-gradient(100deg, rgba(196,140,47,1) 0%  rgba(228,183,84,1) 100%,);
+    background: linear-gradient(
+      90deg,
+      rgba(206, 157, 58, 1) 0%,
+      rgba(237, 206, 90, 1) 100%
+    );
 }
 .gradian_color{
     background: rgb(228,183,84);
@@ -19,14 +27,38 @@
     background-image: url(../img/banner\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
+   
 }
 .height-heros{
-    min-height: 600px;
+    min-height: 100vh;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
 }
 
+.nav_style{
+  gap: 35px;
+}
+.hero_fw{
+  font-size: 61px;
+  font-weight: 558;
+}
+
+.heros_font{
+  color:#d7ab44;
+}
 /* this is 2nd section */
 
-
+.fw-2nd{
+  font-weight: 838;
+}
+.fw-card{
+  font-weight: bold;
+}
+.img-bg{
+  background-color: #000000;
+}
   
 /* this is 3rd section  */
 .white-line{
@@ -35,7 +67,10 @@
     background: rgb(255, 255, 255);
     border-radius: 2px;
 }
-
+.fw-3th{
+  font-weight: 838;
+  color: #ffffff;
+}
 /* this is 4th section */
 .gradient-line {
     width: 10%; 
@@ -44,6 +79,7 @@
     background: linear-gradient(100deg, rgba(196,140,47,1) 0%  rgba(228,183,84,1) 100%,);
     border-radius: 2px;
 }
+
 
 /* this is 5th section */
 .bg-5th{
@@ -125,4 +161,41 @@ a:hover{
 .bi-envelope-fill , .bi-facebook , .bi-twitter-x , .bi-instagram , .bi-youtube{
     color: #EDCE5A;
     font-size: 30px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav_style{
+    gap: 5px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .nav_style{
+    gap: 15px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .nav_style{
+    gap: 15px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .nav_style{
+    gap: 25px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .nav_style{
+    gap: 35px;
+  }
 }
