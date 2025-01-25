@@ -103,7 +103,7 @@
 
 .bg_7th{
     background: rgb(12,12,12);
-    background: linear-gradient(0deg, rgba(12,12,12,1) 60%, rgba(245,245,245,1) 40%);
+    background: linear-gradient(0deg, rgba(12,12,12,1) 70%, rgba(245,245,245,1) 30%);
 }
 
 .bg-7th_child{
