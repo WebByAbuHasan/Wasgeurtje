@@ -19,10 +19,7 @@ body{
     background: rgb(228,183,84);
     background: linear-gradient(100deg, rgba(228,183,84,1) 0%, rgba(196,140,47,1) 100%);
 }
-
-
 /* this is heros section */
-
 .heros_bg{
     background-image: url(../img/banner\ 1.png);
     background-repeat: no-repeat;
@@ -36,7 +33,6 @@ body{
 .navbar-light .navbar-nav .nav-link {
   color: #000000;
 }
-
 .nav_style{
   gap: 35px;
 }
@@ -44,22 +40,21 @@ body{
   font-size: 61px;
   font-weight: 558;
 }
-
 .heros_font{
   color:#d7ab44;
 }
 /* this is 2nd section */
-
 .fw-2nd{
   font-weight: 838;
+  font-size: 41px;
+  color: #000000;
 }
 .fw-card{
   font-weight: bold;
 }
 .img-bg{
   background-color: #000000;
-}
-  
+}  
 /* this is 3rd section  */
 .white-line{
     width: 30%; 
@@ -70,6 +65,11 @@ body{
 .fw-3th{
   font-weight: 838;
   color: #ffffff;
+  font-size: 43px;
+}
+.fw-sec3-p{
+  font-size: 25px;
+  color: #ffffff;
 }
 /* this is 4th section */
 .gradient-line {
@@ -79,49 +79,52 @@ body{
     background: linear-gradient(100deg, rgba(196,140,47,1) 0%  rgba(228,183,84,1) 100%,);
     border-radius: 2px;
 }
-
-
+.fw-4th{
+  font-weight: 838;
+  color: #000000;
+  font-size: 44px;
+}
+.fw-4th-p{
+  font-size: 24px;
+  color: #000000;
+}
 /* this is 5th section */
 .bg-5th{
     background-image: url(../img/darkbg\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.fw-5th{
+  font-weight: 838;
+  color: #ffffff;
+  font-size: 44px;
+}
 /* slider */
-
 .card {
     background: linear-gradient(to bottom, #d4af37, #b8860b);
     border: none;
-    border-radius: 8px;
     color: #000;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     margin: 10px;
-  }
-  
+    padding: 10px;
+  } 
   .card-body {
     padding: 20px;
-  }
-  
-  .stars {
-    font-size: 1.5rem;
-    color: #ffcc00;
-  }
+  } 
+  .carousel_fw{
+    color: #ffffff;
+  } 
+  .bi-star-fill{
+    color: #ffffff;
 
+  }
   .custom-icon-prev, .custom-icon-next {
     color: #ffd700;
     font-size: 2rem;
-  }
-  
+  }  
   .custom-icon-prev:hover, .custom-icon-next:hover {
     color: #ff8c00;
   }
-
-
-
   /* this is 6th section accordion */
-
-
   .accordion-button::after {
     color: #ffd700;
   }
@@ -134,14 +137,16 @@ body{
     background-color: #ffffff;
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
 }
-
+.fw-6th{
+  font-weight: 838;
+  color: #000000;
+  font-size: 44px;
+}
 /* this is 7th section */
-
 .bg_7th{
     background: rgb(12,12,12);
     background: linear-gradient(0deg, rgba(12,12,12,1) 70%, rgba(245,245,245,1) 30%);
 }
-
 .bg-7th_child{
     background-image: url(../img/ctabox\ 1.png);
     background-repeat: no-repeat;
@@ -156,19 +161,68 @@ a:hover{
     color: #EDCE5A;
     text-decoration: none;
 }
-
+.acc-btn-fw{
+  font-size: 24px;
+  color: #000000;
+}
+.acc-fw{
+  font-size: 19px;
+  color: #000000;
+}
+.fw-7th{
+  font-weight: 838;
+  color: #ffffff;
+  font-size: 42px;
+  padding: 30px;
+}
+.footer_fw{
+  color: #d4af37;
+  font-size: 32px;
+}
 /* icon  */
 .bi-envelope-fill , .bi-facebook , .bi-twitter-x , .bi-instagram , .bi-youtube{
     color: #EDCE5A;
     font-size: 30px;
 }
-
-
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .nav_style{
     gap: 5px;
+  }
+  .hero_fw{
+    font-size: 41px;
+    font-weight: 558;
+  }
+  .fw-2nd{
+    font-weight: 838;
+    font-size: 31px;
+    color: #000000;
+  }
+  .fw-3th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 31px;
+  }
+  .fw-4th{
+    font-weight: 838;
+    color: #000000;
+    font-size: 31px;
+  }
+  .fw-5th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 31px;
+  }
+  .fw-6th{
+    font-weight: 838;
+    color: #000000;
+    font-size: 31px;
+  }
+  .fw-7th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px;
   }
 }
 
@@ -177,12 +231,90 @@ a:hover{
   .nav_style{
     gap: 15px;
   }
+  .hero_fw{
+    font-size: 51px;
+    font-weight: 558;
+  }
+  .fw-2nd{
+    font-weight: 838;
+    font-size: 31px;
+    color: #000000;
+  }
+  .fw-3th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .fw-sec3-p {
+    font-size: 13px;
+    color: #ffffff;
+  }
+  .fw-4th{
+    font-weight: 838;
+    color: #000000;
+    font-size: 31px;
+  }
+  .fw-5th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 31px;
+  }
+  .fw-6th{
+    font-weight: 838;
+    color: #000000;
+    font-size: 31px;
+  }
+  .fw-7th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 31px;
+    padding: 10px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .nav_style{
     gap: 15px;
+  }
+  .hero_fw{
+    font-size: 55px;
+    font-weight: 558;
+  }
+  .fw-2nd{
+    font-weight: 838;
+    font-size: 31px;
+    color: #000000;
+  }
+  .fw-3th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .fw-sec3-p {
+    font-size: 13px;
+    color: #ffffff;
+}
+  .fw-4th{
+    font-weight: 838;
+    color: #000000;
+    font-size: 31px;
+  }
+  .fw-5th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 31px;
+  }
+  .fw-6th{
+    font-weight: 838;
+    color: #000000;
+    font-size: 31px;
+  }
+  .fw-7th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 31px;
+    padding: 10px;
   }
 }
 
@@ -191,11 +323,90 @@ a:hover{
   .nav_style{
     gap: 25px;
   }
+  .hero_fw{
+    font-size: 61px;
+    font-weight: 558;
+  }
+  .fw-2nd{
+    font-weight: 838;
+    font-size: 41px;
+    color: #000000;
+  }
+  .fw-3th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 43px;
+  }
+  .fw-sec3-p {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .fw-4th{
+    font-weight: 838;
+    color: #000000;
+    font-size: 44px;
+  }
+  .fw-5th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 44px;
+  }
+  .fw-6th{
+    font-weight: 838;
+    color: #000000;
+    font-size: 44px;
+  }
+  .fw-7th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 42px;
+    padding: 10px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .nav_style{
     gap: 35px;
+  }
+
+  .hero_fw{
+    font-size: 61px;
+    font-weight: 558;
+  }
+  .fw-2nd{
+    font-weight: 838;
+    font-size: 41px;
+    color: #000000;
+  }
+  .fw-3th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 43px;
+  }
+  .fw-sec3-p {
+    font-size: 25px;
+    color: #ffffff;
+  }
+  .fw-4th{
+    font-weight: 838;
+    color: #000000;
+    font-size: 44px;
+  }
+  .fw-5th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 44px;
+  }
+  .fw-6th{
+    font-weight: 838;
+    color: #000000;
+    font-size: 44px;
+  }
+  .fw-7th{
+    font-weight: 838;
+    color: #ffffff;
+    font-size: 42px;
+    padding: 10px;
   }
 }
