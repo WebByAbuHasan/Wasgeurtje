@@ -43,6 +43,17 @@ body{
 .heros_font{
   color:#d7ab44;
 }
+.position_heros{
+  position: relative;
+}
+
+.dooted_array{
+  position: absolute;
+  width: fit-content;
+  bottom: 65px;
+  left: 135px;
+
+}
 /* this is 2nd section */
 .fw-2nd{
   font-weight: 838;
@@ -55,6 +66,25 @@ body{
 .img-bg{
   background-color: #000000;
 }  
+
+.bg_reli{
+  position: relative;
+}
+.sec2_bg_absulet{
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.padding_sec2{
+  padding: 0px 35px 0px 0px;
+}
+.padding_sec2-right{
+  padding: 0px 0px 0px 35px;
+}
 /* this is 3rd section  */
 .white-line{
     width: 30%; 
@@ -87,6 +117,15 @@ body{
 .fw-4th-p{
   font-size: 24px;
   color: #000000;
+}
+.parent-4{
+  position: relative;
+}
+.parent-4 > div::after{
+  position: absolute;
+  content: url(../img/arrow1\ 1.png);
+  left: 20%;
+  bottom: 50%;
 }
 /* this is 5th section */
 .bg-5th{
